@@ -1,0 +1,42 @@
+[
+  {
+    "title": "Arrays em JavaScript",
+    "description": "Conceitos básicos sobre arrays, métodos principais e boas práticas.",
+    "tags": ["javascript", "arrays", "colecoes"],
+    "content": "Array é uma estrutura que armazena múltiplos valores em uma única variável. Métodos importantes: push, pop, shift, unshift, map, filter, reduce. Exemplos: const arr = [1,2,3]; const doubled = arr.map(x => x*2);",
+    "examples": "const nums = [1,2,3]; const sum = nums.reduce((a,b) => a+b, 0);",
+    "exercises": "Crie um array de nomes e filtre apenas os nomes com mais de 5 letras."
+  },
+  {
+    "title": "HTML semântico",
+    "description": "Como usar tags semânticas para melhorar acessibilidade e SEO.",
+    "tags": ["html", "semantico", "acessibilidade"],
+    "content": "Use <header>, <main>, <nav>, <section>, <article>, <footer> para organizar o documento. Elementos como <strong> e <em> informam ênfase. Um HTML semântico facilita leitores de tela e melhora indexação.",
+    "examples": "<header><nav>...</nav></header><main><article>...</article></main>",
+    "exercises": "Reescreva um HTML antigo usando tags semânticas."
+  },
+  {
+    "title": "Promises e async/await",
+    "description": "Entenda fluxo assíncrono em JS com Promises e async/await.",
+    "tags": ["javascript", "async", "promises"],
+    "content": "Promise representa uma operação assíncrona. async/await facilita escrita sequencial. Exemplo: async function getData(){ const res = await fetch(url); const json = await res.json(); return json; }",
+    "examples": "fetch('https://api.example.com').then(r=>r.json()).then(data=>console.log(data))",
+    "exercises": "Converta uma cadeia de .then() para async/await."
+  },
+  {
+    "title": "Node.js – servidor simples",
+    "description": "Como criar um servidor Express básico com endpoint REST.",
+    "tags": ["nodejs", "express", "backend"],
+    "content": "Instale express e crie um app: const app = express(); app.get('/', (req,res)=>res.send('ok')); app.listen(3000);",
+    "examples": "npm init -y && npm install express",
+    "exercises": "Crie um endpoint /health que retorne {status:'ok'}"
+  },
+  {
+    "title": "Testes unitários básicos",
+    "description": "Introdução a testes unitários com Jest ou Mocha.",
+    "tags": ["testes", "jest", "qualidade"],
+    "content": "Escreva testes pequenos e isolados. Exemplo com Jest: test('soma', ()=> expect(sum(1,2)).toBe(3))",
+    "examples": "npm install --save-dev jest && npx jest",
+    "exercises": "Adicione um teste para a função que soma dois números."
+  }
+]

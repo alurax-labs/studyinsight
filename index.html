@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>StudyInsight — IA para Aprendizagem Rápida</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1>StudyInsight</h1>
+      <p class="subtitle">Encontre explicações, exemplos e exercícios para qualquer tema — em segundos.</p>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="search-section">
+      <input id="query" type="search" placeholder="Digite um tema (ex.: arrays em JS)" />
+      <button id="btn-search">Buscar</button>
+      <p class="hint">Dica: tente palavras-chave curtas, ex.: "promises", "semantic html"</p>
+    </section>
+
+    <section id="results" class="results-grid" aria-live="polite">
+      <!-- Cards serão injetados aqui -->
+    </section>
+
+    <section id="details" class="details hidden">
+      <button id="close-details" class="close">&times;</button>
+      <div id="details-content"></div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <small>Imersão Dev • Alura & Google | Projeto: StudyInsight</small>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
