@@ -1,0 +1,12 @@
+{
+  "name": "studyinsight-api",
+  "version": "1.0.0",
+  "description": "StudyInsight API (demo) - fallback to local knowledge",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
