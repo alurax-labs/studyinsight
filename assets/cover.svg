@@ -1,0 +1,11 @@
+<svg width="1280" height="400" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1280" height="400" fill="#0d1117"/>
+
+  <text x="50%" y="50%" fill="#ffffff" font-family="Arial" font-size="60" text-anchor="middle">
+    StudyInsight
+  </text>
+
+  <text x="50%" y="70%" fill="#8b949e" font-family="Arial" font-size="30" text-anchor="middle">
+    IA para Aprender Qualquer Assunto em Segundos
+  </text>
+</svg>
