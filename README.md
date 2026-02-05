@@ -7,13 +7,13 @@ StudyInsight é uma aplicação leve construída durante a **Imersão Dev com Go
 ---
 
 ## Demonstração rápida
-- Busque um tema (ex.: `arrays em JS`, `HTML semântico`, `teste unitário`) e veja explicações, exemplos e exercícios.
+- Busque um tema (ex.: `arrays em JS`, `HTML semântico`, `teste unitário` ) e veja explicações, exemplos e exercícios.
 - Front-end estático que consome `knowledge.json` localmente.
-- Back-end opcional (`/api/search`) para integrar com APIs de IA (Gemini) — funciona em modo *mock* se não houver chave.
+- Back-end opcional ( `/api/search` ) para integrar com APIs de IA (Gemini) — funciona em modo *mock* se não houver chave.
 
 ---
 
-## Estrutura do Projeto
+## Estrutura do projeto
 
 ```bash
 /
@@ -31,13 +31,20 @@ StudyInsight é uma aplicação leve construída durante a **Imersão Dev com Go
 └─ README.md
 ```
 
+## Estrutura técnica
+
+- HTML semântico para acessibilidade e SEO.
+- CSS responsivo (mobile-first).
+- JavaScript: fetch + async/await + manipulação de DOM (cards dinâmicos).
+- Node.js/Express para endpoint `/api/search` com lógica de fallback.
+
 ---
 
 ## Como rodar localmente (modo front-end somente)
 
 1. Clone o repositório:
 ```bash
-git clone https://github.com/augusto-mate/studyinsight
+git clone https://github.com/alurax-labs/studyinsight
 cd studyinsight
 ```
 
@@ -71,19 +78,21 @@ node server.js
 - **Front-end:** GitHub Pages (branch `main` / pasta raiz).
 - **Back-end (opcional):** Render, Railway, Vercel (Node) — defina `GEMINI_API_KEY` nas variáveis de ambiente caso queira usar Gemini.
 
-## Estrutura técnica
+---
 
-- HTML semântico para acessibilidade e SEO.
-- CSS responsivo (mobile-first).
-- JavaScript: fetch + async/await + manipulação de DOM (cards dinâmicos).
-- Node.js/Express para endpoint `/api/search` com lógica de fallback.
+## Autor
+
+| Nome | GitHub | LinkedIn |
+|------|--------|----------|
+| Augusto Mate | [@augusto-mate](https://github.com/augusto-mate) | [@augusto-mate](https://linkedin.com/in/augusto-mate) |
 
 ## Licença
 
 [MIT](LICENSE) — sinta-se à vontade para adaptar e compartilhar.
 
-## Autor
+---
 
-| Nome | GitHub | Contacto |
-|------|--------|----------|
-| Augusto Mate | [@augusto-mate](https://github.com/augusto-mate) | mate.augusto.mz@gmail.com |
+### Inspiração e Propósito
+
+> “Consagre ao Senhor tudo o que você faz, e os seus planos serão bem-sucedidos.”  
+> **— Provérbios 16:3 (NVI)**
